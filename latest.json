@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-24T21:39:11Z",
+  "generated_at": "2026-07-24T21:43:36Z",
   "unit": "percent of live pool that reaches the site",
   "network_mix_pct": {
-    "residential": 58.2,
-    "hosting": 31.6,
+    "residential": 58.3,
+    "hosting": 31.5,
     "unknown": 8.5,
     "mobile": 1.7
   },
@@ -16,57 +16,57 @@
     {
       "site": "YouTube",
       "key": "youtube",
-      "pass_rate_pct": 38.3
+      "pass_rate_pct": 38.5
     },
     {
       "site": "Instagram",
       "key": "instagram",
-      "pass_rate_pct": 34.7
+      "pass_rate_pct": 35.1
     },
     {
       "site": "TikTok",
       "key": "tiktok",
-      "pass_rate_pct": 34.9
+      "pass_rate_pct": 35.1
     },
     {
       "site": "LinkedIn",
       "key": "linkedin",
-      "pass_rate_pct": 36.9
+      "pass_rate_pct": 37.3
     },
     {
       "site": "X (Twitter)",
       "key": "x",
-      "pass_rate_pct": 36.4
+      "pass_rate_pct": 36.9
     },
     {
       "site": "Reddit",
       "key": "reddit",
-      "pass_rate_pct": 17.8
+      "pass_rate_pct": 18.1
     },
     {
       "site": "Facebook",
       "key": "facebook",
-      "pass_rate_pct": 3.2
+      "pass_rate_pct": 3.4
     },
     {
       "site": "Telegram",
       "key": "telegram",
-      "pass_rate_pct": 27.5
+      "pass_rate_pct": 27.6
     },
     {
       "site": "Qzone",
       "key": "qzone",
-      "pass_rate_pct": 35.1
+      "pass_rate_pct": 35.5
     },
     {
       "site": "VK",
       "key": "vk",
-      "pass_rate_pct": 28.4
+      "pass_rate_pct": 28.5
     },
     {
       "site": "OK.ru",
       "key": "ok",
-      "pass_rate_pct": 27.0
+      "pass_rate_pct": 26.9
     },
     {
       "site": "Mail.ru",
@@ -76,12 +76,12 @@
     {
       "site": "Yandex",
       "key": "yandex",
-      "pass_rate_pct": 14.6
+      "pass_rate_pct": 14.5
     },
     {
       "site": "Avito",
       "key": "avito",
-      "pass_rate_pct": 9.5
+      "pass_rate_pct": 9.4
     }
   ]
 }
