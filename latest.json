@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-07-29T06:40:02Z",
+  "generated_at": "2026-07-30T06:40:02Z",
   "unit": "percent of live pool that reaches the site",
   "network_mix_pct": {
-    "residential": 53.1,
-    "hosting": 34.7,
-    "unknown": 10.6,
-    "mobile": 1.6
+    "residential": 52.5,
+    "hosting": 36.5,
+    "unknown": 9.1,
+    "mobile": 1.9
   },
   "site_access": [
     {
       "site": "Google",
       "key": "google",
-      "pass_rate_pct": 38.9
+      "pass_rate_pct": 32.9
     },
     {
       "site": "YouTube",
       "key": "youtube",
-      "pass_rate_pct": 32.7
+      "pass_rate_pct": 25.1
     },
     {
       "site": "Instagram",
       "key": "instagram",
-      "pass_rate_pct": 28.9
+      "pass_rate_pct": 22.1
     },
     {
       "site": "TikTok",
       "key": "tiktok",
-      "pass_rate_pct": 30.7
+      "pass_rate_pct": 22.6
     },
     {
       "site": "LinkedIn",
       "key": "linkedin",
-      "pass_rate_pct": 31.9
+      "pass_rate_pct": 25.0
     },
     {
       "site": "X (Twitter)",
       "key": "x",
-      "pass_rate_pct": 29.7
+      "pass_rate_pct": 21.9
     },
     {
       "site": "Reddit",
       "key": "reddit",
-      "pass_rate_pct": 10.7
+      "pass_rate_pct": 11.6
     },
     {
       "site": "Facebook",
       "key": "facebook",
-      "pass_rate_pct": 1.7
+      "pass_rate_pct": 0.9
     },
     {
       "site": "Telegram",
       "key": "telegram",
-      "pass_rate_pct": 24.5
+      "pass_rate_pct": 17.9
     },
     {
       "site": "Qzone",
       "key": "qzone",
-      "pass_rate_pct": 29.3
+      "pass_rate_pct": 22.1
     },
     {
       "site": "VK",
       "key": "vk",
-      "pass_rate_pct": 26.1
+      "pass_rate_pct": 19.6
     },
     {
       "site": "OK.ru",
       "key": "ok",
-      "pass_rate_pct": 25.3
+      "pass_rate_pct": 18.7
     },
     {
       "site": "Mail.ru",
       "key": "mailru",
-      "pass_rate_pct": 27.6
+      "pass_rate_pct": 21.8
     },
     {
       "site": "Yandex",
       "key": "yandex",
-      "pass_rate_pct": 16.3
+      "pass_rate_pct": 11.9
     },
     {
       "site": "Avito",
       "key": "avito",
-      "pass_rate_pct": 8.6
+      "pass_rate_pct": 7.3
     }
   ]
 }
