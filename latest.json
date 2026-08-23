@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-08-22T06:40:03Z",
+  "generated_at": "2026-08-23T06:40:02Z",
   "unit": "percent of live pool that reaches the site",
   "network_mix_pct": {
-    "residential": 56.0,
-    "hosting": 43.1,
-    "mobile": 0.9
+    "residential": 67.4,
+    "hosting": 31.4,
+    "mobile": 1.2
   },
   "site_access": [
     {
       "site": "Google",
       "key": "google",
-      "pass_rate_pct": 24.8
+      "pass_rate_pct": 29.1
     },
     {
       "site": "YouTube",
       "key": "youtube",
-      "pass_rate_pct": 17.1
+      "pass_rate_pct": 22.4
     },
     {
       "site": "Instagram",
       "key": "instagram",
-      "pass_rate_pct": 13.8
+      "pass_rate_pct": 20.8
     },
     {
       "site": "TikTok",
       "key": "tiktok",
-      "pass_rate_pct": 16.4
+      "pass_rate_pct": 21.5
     },
     {
       "site": "LinkedIn",
       "key": "linkedin",
-      "pass_rate_pct": 16.5
+      "pass_rate_pct": 22.3
     },
     {
       "site": "X (Twitter)",
       "key": "x",
-      "pass_rate_pct": 15.7
+      "pass_rate_pct": 21.3
     },
     {
       "site": "Reddit",
       "key": "reddit",
-      "pass_rate_pct": 8.1
+      "pass_rate_pct": 12.6
     },
     {
       "site": "Facebook",
@@ -50,37 +50,37 @@
     {
       "site": "Telegram",
       "key": "telegram",
-      "pass_rate_pct": 10.1
+      "pass_rate_pct": 14.0
     },
     {
       "site": "Qzone",
       "key": "qzone",
-      "pass_rate_pct": 15.7
+      "pass_rate_pct": 20.9
     },
     {
       "site": "VK",
       "key": "vk",
-      "pass_rate_pct": 13.5
+      "pass_rate_pct": 18.2
     },
     {
       "site": "OK.ru",
       "key": "ok",
-      "pass_rate_pct": 11.3
+      "pass_rate_pct": 17.2
     },
     {
       "site": "Mail.ru",
       "key": "mailru",
-      "pass_rate_pct": 5.9
+      "pass_rate_pct": 7.8
     },
     {
       "site": "Yandex",
       "key": "yandex",
-      "pass_rate_pct": 6.2
+      "pass_rate_pct": 8.9
     },
     {
       "site": "Avito",
       "key": "avito",
-      "pass_rate_pct": 4.3
+      "pass_rate_pct": 6.2
     }
   ]
 }
