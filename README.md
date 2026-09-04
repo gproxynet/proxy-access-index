@@ -2,7 +2,7 @@
 
 What share of a live, continuously-rechecked proxy pool still gets through to each major website — measured every day, published as rates.
 
-**Updated:** 2026-09-03 06:40 UTC · **History:** 373 daily snapshots since 2025-04-09
+**Updated:** 2026-09-04 06:40 UTC · **History:** 374 daily snapshots since 2025-04-09
 
 Most proxy lists tell you an IP is *alive*. That is the easy part. What decides whether a scrape or an automation run works is whether the IP is still *accepted* by the site you are targeting. This dataset publishes that second number, so you can size a job before paying for it.
 
@@ -10,31 +10,31 @@ Most proxy lists tell you an IP is *alive*. That is the easy part. What decides 
 
 | Target site | Share of live pool that gets through |
 |---|---:|
-| Google | 31.4% |
-| Qzone | 27.0% |
-| LinkedIn | 26.7% |
-| TikTok | 26.1% |
-| X (Twitter) | 25.8% |
-| YouTube | 25.4% |
-| Instagram | 23.6% |
-| VK | 21.0% |
-| OK.ru | 19.9% |
-| Reddit | 16.8% |
-| Telegram | 16.3% |
-| Mail.ru | 9.4% |
-| Yandex | 9.0% |
-| Avito | 8.6% |
-| Facebook | 0.3% |
+| Google | 27.4% |
+| Qzone | 23.1% |
+| LinkedIn | 22.7% |
+| X (Twitter) | 22.7% |
+| TikTok | 21.5% |
+| YouTube | 21.0% |
+| VK | 19.4% |
+| Instagram | 19.1% |
+| OK.ru | 17.7% |
+| Telegram | 14.7% |
+| Reddit | 13.3% |
+| Yandex | 8.9% |
+| Mail.ru | 8.5% |
+| Avito | 6.8% |
+| Facebook | 0.1% |
 
 ## Hardest targets right now
 
 These run the strictest proxy detection — datacenter IPs mostly bounce, so plan on residential or mobile:
 
-- **Facebook** — 0.3% of live proxies get through
-- **Avito** — 8.6% of live proxies get through
-- **Yandex** — 9.0% of live proxies get through
-- **Mail.ru** — 9.4% of live proxies get through
-- **Telegram** — 16.3% of live proxies get through
+- **Facebook** — 0.1% of live proxies get through
+- **Avito** — 6.8% of live proxies get through
+- **Mail.ru** — 8.5% of live proxies get through
+- **Yandex** — 8.9% of live proxies get through
+- **Reddit** — 13.3% of live proxies get through
 
 ## Datacenter vs residential vs mobile
 
@@ -42,9 +42,9 @@ The single biggest factor in whether a proxy survives a check is what kind of ne
 
 | Network type | Google | YouTube | Instagram | TikTok | LinkedIn | X (Twitter) |
 |---|---:|---:|---:|---:|---:|---:|
-| residential | 41.6% | 30.4% | 30.0% | 32.0% | 31.6% | 30.2% |
-| hosting | 20.0% | 19.7% | 16.3% | 19.4% | 21.2% | 21.0% |
-| mobile | 28.6% | 25.0% | 28.6% | 28.6% | 39.3% | 25.0% |
+| hosting | 17.1% | 16.7% | 13.0% | 16.6% | 18.6% | 18.9% |
+| residential | 39.1% | 26.0% | 25.9% | 27.1% | 27.2% | 27.1% |
+| mobile | 30.4% | 21.7% | 21.7% | 26.1% | 30.4% | 17.4% |
 
 All 15 targets: [`by-network-type.csv`](by-network-type.csv)
 
@@ -54,26 +54,26 @@ Pass rates differ by where the IP is. Countries are listed only where the sample
 
 | Country | Google | Instagram | TikTok | LinkedIn |
 |---|---:|---:|---:|---:|
-| United States (US) | 26.3% | 18.9% | 18.5% | 20.7% |
-| Indonesia (ID) | 39.5% | 42.5% | 42.9% | 43.6% |
-| Germany (DE) | 29.2% | 21.4% | 25.0% | 29.8% |
-| Türkiye (TR) | 79.2% | 4.7% | 6.0% | 5.4% |
-| Russia (RU) | 41.8% | 0.0% | 30.8% | 4.8% |
-| Brazil (BR) | 49.3% | 22.9% | 22.1% | 23.6% |
-| France (FR) | 25.2% | 26.0% | 29.0% | 26.0% |
-| Mexico (MX) | 24.4% | 23.6% | 26.0% | 27.6% |
-| India (IN) | 31.1% | 22.7% | 21.0% | 27.7% |
-| Canada (CA) | 12.5% | 7.1% | 8.0% | 12.5% |
-| China (CN) | 2.7% | 0.9% | 0.9% | 17.1% |
-| Singapore (SG) | 35.2% | 26.9% | 33.3% | 34.3% |
-| Colombia (CO) | 33.7% | 28.6% | 28.6% | 33.7% |
-| Hong Kong (HK) | 23.1% | 17.6% | 19.8% | 23.1% |
-| United Kingdom (GB) | 10.5% | 5.8% | 8.1% | 5.8% |
-| Philippines (PH) | 38.1% | 42.9% | 39.3% | 36.9% |
-| Australia (AU) | 1.2% | 1.2% | 13.4% | 14.6% |
-| The Netherlands (NL) | 37.8% | 35.1% | 33.8% | 41.9% |
-| Japan (JP) | 20.0% | 12.9% | 17.1% | 21.4% |
-| Bangladesh (BD) | 42.0% | 42.0% | 44.9% | 42.0% |
+| United States (US) | 22.5% | 13.1% | 15.9% | 15.3% |
+| Indonesia (ID) | 32.2% | 32.2% | 33.7% | 36.1% |
+| Germany (DE) | 30.2% | 21.8% | 25.7% | 25.1% |
+| Russia (RU) | 39.0% | 2.5% | 23.3% | 6.3% |
+| India (IN) | 24.3% | 20.4% | 21.7% | 21.7% |
+| Türkiye (TR) | 79.7% | 8.1% | 7.4% | 6.1% |
+| Singapore (SG) | 31.0% | 30.3% | 33.1% | 35.9% |
+| Brazil (BR) | 46.1% | 17.0% | 17.0% | 17.0% |
+| China (CN) | 2.3% | 0.8% | 0.8% | 24.8% |
+| France (FR) | 25.0% | 25.8% | 22.7% | 28.1% |
+| Mexico (MX) | 17.9% | 15.2% | 17.0% | 17.9% |
+| Japan (JP) | 15.2% | 7.1% | 15.2% | 20.5% |
+| Canada (CA) | 11.8% | 10.0% | 11.8% | 15.5% |
+| Hong Kong (HK) | 11.1% | 10.1% | 10.1% | 11.1% |
+| South Korea (KR) | 14.3% | 11.2% | 20.4% | 20.4% |
+| Australia (AU) | 2.2% | 2.2% | 9.0% | 7.9% |
+| The Netherlands (NL) | 48.9% | 38.6% | 46.6% | 47.7% |
+| United Kingdom (GB) | 12.3% | 9.9% | 11.1% | 9.9% |
+| South Africa (ZA) | 4.9% | 6.2% | 9.9% | 12.3% |
+| Thailand (TH) | 33.3% | 30.7% | 29.3% | 30.7% |
 
 All 15 targets × 40 countries: [`by-country.csv`](by-country.csv)
 
@@ -85,7 +85,7 @@ All 15 targets × 40 countries: [`by-country.csv`](by-country.csv)
 | [`site-access-latest.csv`](site-access-latest.csv) | pass rate per target site |
 | [`by-country.csv`](by-country.csv) | pass rate per site, per country |
 | [`by-network-type.csv`](by-network-type.csv) | residential vs mobile vs datacenter |
-| [`history.csv`](history.csv) | 373 daily snapshots since 2025-04-09 |
+| [`history.csv`](history.csv) | 374 daily snapshots since 2025-04-09 |
 
 ```bash
 curl -s https://raw.githubusercontent.com/gproxynet/proxy-access-index/main/latest.json
