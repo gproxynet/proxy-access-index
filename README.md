@@ -2,7 +2,7 @@
 
 What share of a live, continuously-rechecked proxy pool still gets through to each major website — measured every day, published as rates.
 
-**Updated:** 2026-09-06 06:40 UTC · **History:** 376 daily snapshots since 2025-04-09
+**Updated:** 2026-09-07 06:40 UTC · **History:** 377 daily snapshots since 2025-04-09
 
 Most proxy lists tell you an IP is *alive*. That is the easy part. What decides whether a scrape or an automation run works is whether the IP is still *accepted* by the site you are targeting. This dataset publishes that second number, so you can size a job before paying for it.
 
@@ -60,8 +60,8 @@ Pass rates differ by where the IP is. Countries are listed only where the sample
 | Russia (RU) | 38.9% | 3.1% | 24.1% | 6.8% |
 | Türkiye (TR) | 79.9% | 8.1% | 8.1% | 6.0% |
 | India (IN) | 27.9% | 22.1% | 24.3% | 24.3% |
-| Brazil (BR) | 46.0% | 16.1% | 16.8% | 16.8% |
 | Singapore (SG) | 36.5% | 32.8% | 36.5% | 38.0% |
+| Brazil (BR) | 46.0% | 16.1% | 16.8% | 16.8% |
 | China (CN) | 2.4% | 0.8% | 0.8% | 26.0% |
 | Japan (JP) | 14.3% | 6.7% | 15.1% | 20.2% |
 | France (FR) | 27.4% | 28.2% | 24.8% | 28.2% |
@@ -85,7 +85,7 @@ All 15 targets × 40 countries: [`by-country.csv`](by-country.csv)
 | [`site-access-latest.csv`](site-access-latest.csv) | pass rate per target site |
 | [`by-country.csv`](by-country.csv) | pass rate per site, per country |
 | [`by-network-type.csv`](by-network-type.csv) | residential vs mobile vs datacenter |
-| [`history.csv`](history.csv) | 376 daily snapshots since 2025-04-09 |
+| [`history.csv`](history.csv) | 377 daily snapshots since 2025-04-09 |
 
 ```bash
 curl -s https://raw.githubusercontent.com/gproxynet/proxy-access-index/main/latest.json
